@@ -110,7 +110,6 @@ gsap.from('.shop-by-room__title', {
             opacity: 0,
             scale: 0,
             transformOrigin: 'center center',
-            ease: 'back'
         
         })
     }

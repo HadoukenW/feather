@@ -3,18 +3,19 @@ function burgerMenu(){
     let burger = document.querySelector('.burger')
     let menu = document.querySelector('.header__list')
     const body = document.querySelector('body')
+    const html = document.querySelector('html')
     burger.addEventListener('click', () =>{
         if (!menu.classList.contains('active')) {
             menu.classList.add('active')
             burger.classList.add('active-burger')
             body.classList.add('locked')
-
+            html.classList.add('locked')
         }
         else {
             menu.classList.remove('active')
             burger.classList.remove('active-burger')
             body.classList.remove('locked')
-
+            html.classList.remove('locked')
         }
     })
 
@@ -24,6 +25,7 @@ function burgerMenu(){
             menu.classList.remove('active')
             burger.classList.remove('active-burger')
             body.classList.remove('locked')
+            html.classList.remove('locked')
         }
     })
 

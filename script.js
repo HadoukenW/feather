@@ -363,7 +363,7 @@ gsap.from('.woman', {
 
     y: -300,
     opacity: 0,
-    duration: 2,
+    duration: 1.5,
 })
 
 gsap.from('.feather-stress__title', {
@@ -375,8 +375,8 @@ gsap.from('.feather-stress__title', {
     },
         opacity: 0,
         x: 200,
-        duration: 1,
-        delay: 2,
+        duration: 0.75,
+        delay: 1.5,
 })
 
 gsap.from('.feather-stress__btn', {
@@ -388,7 +388,7 @@ gsap.from('.feather-stress__btn', {
     },
         opacity: 0,
         x: -200,
-        duration: 1,
-        delay: 3,
+        duration: 0.75,
+        delay: 2.25,
 })
 

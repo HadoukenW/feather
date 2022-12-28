@@ -1,6 +1,10 @@
 html {
       overflow-x: hidden;
 }
+html.locked {
+  overflow-y: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;

@@ -1133,7 +1133,7 @@ body.locked {
 }
 
 .footer {
-  border-top: 1ps solid #CDD454;
+  border-top: 2px solid #CDD454;
   padding: 80px 0;
   background: #F3F0EC;
 }
